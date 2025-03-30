@@ -1,0 +1,43 @@
+﻿Giao thức kết nối giữa website và mạng xã hội
+1. Định nghĩa
+Giao thức dùng để giao tiếp giữa website với mạng xã hội (Facebook, Instagram, Twitter, v.v.) là một tập hợp các quy tắc và tiêu chuẩn giúp website của bạn chia sẻ nội dung một cách hiệu quả trên các nền tảng này. Một trong những giao thức phổ biến nhất là Open Graph Protocol (OGP).
+2. Tính chất và đặc điểm
+* Tích hợp sâu: Cho phép website hiển thị nội dung phong phú khi được chia sẻ trên mạng xã hội.
+
+* Tăng tính tương tác: Hiển thị hình ảnh, tiêu đề, mô tả tối ưu, giúp thu hút người dùng.
+
+* Chuẩn hóa dữ liệu: Giúp các nền tảng hiểu và hiển thị nội dung chính xác.
+
+* Hỗ trợ đa nền tảng: Hoạt động trên nhiều mạng xã hội khác nhau.
+
+3. Các loại giao thức phổ biến
+   * Open Graph Protocol (OGP): Được Facebook phát triển, cho phép kiểm soát cách nội dung hiển thị khi được chia sẻ.
+
+   * Twitter Card: Cung cấp thẻ nội dung đặc biệt khi chia sẻ trên Twitter.
+
+   * Schema.org: Định dạng dữ liệu có cấu trúc được hỗ trợ bởi Google, Bing, Yahoo.
+
+4. Cách tạo giao thức kết nối
+4.1. Open Graph Protocol (OGP)
+Thêm các thẻ meta vào phần <head> của website:
+<meta property="og:title" content="Tên website của bạn" />
+<meta property="og:description" content="Mô tả ngắn về website" />
+<meta property="og:image" content="URL hình ảnh đại diện" />
+<meta property="og:url" content="URL của website" />
+
+
+4.2. Twitter Card
+<meta name="twitter:card" content="summary_large_image" />
+<meta name="twitter:title" content="Tiêu đề trang" />
+<meta name="twitter:description" content="Mô tả trang" />
+<meta name="twitter:image" content="URL hình ảnh" />
+
+
+5. Ứng dụng vào project eTicket
+      * Kiểm tra và cập nhật mã nguồn của eTicket để hỗ trợ Open Graph Protocol.
+
+      * Kiểm tra tính tương thích với Facebook Debugger.
+
+      * Tích hợp Twitter Card nếu cần thiết.
+
+      * Cập nhật tài liệu và source code lên Github.
